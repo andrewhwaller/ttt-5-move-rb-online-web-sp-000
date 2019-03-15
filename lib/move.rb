@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def input_to_index(num)
-  puts board["#{num}.to_i"]
+  puts board["#{num}.to_i" + 1]
 end
 
 def move
